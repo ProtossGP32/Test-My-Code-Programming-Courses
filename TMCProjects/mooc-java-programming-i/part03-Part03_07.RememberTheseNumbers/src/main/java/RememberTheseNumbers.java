@@ -16,6 +16,10 @@ public class RememberTheseNumbers {
 
             numbers.add(luku);
         }
+        /* List comprehension approach */
+        for (int number : numbers) {
+            System.out.println(number);
+        }
 
     }
 }

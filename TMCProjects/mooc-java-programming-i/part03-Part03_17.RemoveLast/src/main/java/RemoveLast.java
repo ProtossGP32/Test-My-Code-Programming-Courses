@@ -7,4 +7,9 @@ public class RemoveLast {
         // Try your method in here
     }
 
+    public static void removeLast(ArrayList<String> strings) {
+        if (strings.size() > 0) {
+            strings.remove(strings.size() - 1);
+        }
+    }
 }

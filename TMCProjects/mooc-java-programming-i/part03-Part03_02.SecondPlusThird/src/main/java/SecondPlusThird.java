@@ -9,7 +9,7 @@ public class SecondPlusThird {
 
         ArrayList<Integer> numbers = new ArrayList<>();
         while (true) {
-            int number = Integer.valueOf(scanner.nextLine());
+            int number = Integer.parseInt(scanner.nextLine());
             if (number == 0) {
                 break;
             }
@@ -17,6 +17,6 @@ public class SecondPlusThird {
             numbers.add(number);
         }
 
-        System.out.println(luvut.get(0));
+        System.out.println(numbers.get(1) + numbers.get(2));
     }
 }
