@@ -1,2 +1,4 @@
-package c;public class C {
+package c;
+
+public class C {
 }

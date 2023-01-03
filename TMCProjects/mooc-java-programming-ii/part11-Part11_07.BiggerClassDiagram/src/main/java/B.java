@@ -1,2 +1,2 @@
-public class B {
+public class B extends A implements IB{
 }
